@@ -1,0 +1,259 @@
+@media screen and (max-width: 1199px) {
+    .banner-text h1{font-size: 48px;line-height: 70px;}
+    .care-text h3{font-size: 37px;}
+
+    #features{padding: 120px 0;}
+    .market-text h2{font-size: 42px;line-height: 62px;}
+    .market-text p{padding: 25px 0 23px 0;}
+    .tool-text h4{font-size: 27px;}
+
+    .amazing-text h2{font-size: 45px;}
+    #business-services{padding: 115px 0;}
+
+    .project-analysis{right: 45px;bottom: -163px;}
+
+    .get-ready-text h4{font-size: 35px;line-height: 55px;}
+    .consultation-btn{min-width: 250px;line-height: 45px;}
+
+    .tech-analysis{left: 20px;}
+    .technical-team img{height: 450px;}
+    .tech-analysis{left: 45px;bottom: 90px;}
+
+    .get-text h2{font-size: 43px;line-height: 60px;}
+    .finance-menu{gap: 25px;}
+
+    #footer{padding: 75px 0;}
+}
+@media screen and (max-width: 991px) {
+    .navigation {display: block;position: fixed;width: 100%;right: -100%;top:102px;background: #f3513f;height: calc(60vh - 102px);transition: all ease 0.5s;padding: 40px;}
+    .navigation > ul > li > a{line-height: 0px;}
+    .navigation{top: 82px;height: calc(70vh - 82px);}
+    .fixed-header .navigation > ul > li > a{line-height: 0px;}
+    .navigation .menu li a {color: #fff;}
+    .navigation ul {padding: 0;display: flex;flex-direction: column;row-gap: 20px;}
+    .open-menu{position: relative;width: 30px;height: 30px;background: transparent;}
+    .open-menu span {display: block;height: 3px;width: 30px;background: black;}
+    .open-menu span::after {content: '';position: absolute;height: 3px;width: 30px;background: black;left: 0;top: 23px;transition: all ease 0.5s;transform: rotate(0deg);}
+    .open-menu span::before {content: '';position: absolute;height: 3px;width: 30px;background: black;left: 0;top: 5px;transition: all ease 0.5s;transform: rotate(0deg);}
+    .fixed-header .navigation{top: 72px;transition: all ease 0.5s;}
+    #header{padding: 15px 0;}
+    body{padding-top: 80px;}
+    .open-icon .navigation{right: 0;}
+    .open-icon .open-menu span{width: 0;transition: all ease 0.5s;}
+    .open-icon .open-menu span::after{transform: rotate(-45deg);bottom: 13px;top: auto;}
+    .open-icon .open-menu span::before{transform: rotate(45deg);top: 14px;}
+    .header-btn{padding: 6px 10px;font-size: 16px;}
+
+    .banner-text h1{font-size: 36px;line-height: 50px;}
+    .banner-text p{line-height: 23px;}
+    .banner-img-block img{width: 107%;}
+    .banner-btn{font-size: 17px;min-width: 160px;line-height: 35px;}
+    .banner-text{margin-bottom: 40px;}
+
+    #features{padding: 80px 0;}
+    .care-text h3{font-size: 33px;line-height: 25px;}
+    .tool-text h4{font-size: 25px;}
+    .care-text h5{font-size: 18px;}
+
+    .features-card-block{border: 1px solid #bfbec2;border-radius: 10px;padding: 10px;}
+
+    #marketing{padding: 85px 0;}
+    .market-text h5{font-size: 18px;}
+    .market-text h2{font-size: 40px;line-height: 50px;}
+    .market-text p{padding: 22px 0 20px 0;}
+    .finance-manger img{width: 90%;}
+
+    #business-services{padding: 80px 0;}
+    .amazing-text h2{font-size: 41px;line-height: 50px;}
+    .amazing-text h5{font-size: 18px;}
+    .technical-text h4{font-size: 25px;}
+    .technical-text p{font-size: 15px;line-height: 20px;}
+    .technical-text {bottom: 35px;left: 20px;}
+
+    #get-to-work{padding: 110px 0;}
+    .finance-manger > img{width: 92%;}
+    .get-text h5{font-size: 18px;}
+    .get-text h2{line-height: 50px;font-size: 40px;}
+    .get-text p{padding: 15px 0 13px 0;line-height: 22px;}
+    .finance-menu{gap: 5px;}
+    .project-analysis{left: 0px;bottom: -120px;width: 300px;height: 270px;}
+    .analysis-text h4{font-size: 16px;}
+    .markting-text-block h5{font-size: 14px;line-height: 35px;}
+    .markting-text-block{min-width: 120px;}
+    .business-text-block h5{font-size: 14px;line-height: 35px;}
+    .visitors-main-block h5{font-size: 14px;}
+    .visitors-main-block::before{height: 6px;}
+    .visitors-main-block::after{height: 6px;}
+    .team-member-work span{font-size: 14px;}
+    .business-text-block{min-width: 120px;}
+    .tab-block{margin: 17px 0;}
+
+
+    .latest-text h5{font-size: 18px;}
+    .latest-text h3{font-size: 35px;line-height: 30px;}
+    .tech-analysis h4{font-size: 25px;}
+    .latest-text h3{font-size: 33px;}
+    .get-ready-text h4{font-size: 28px;line-height: 35px;}
+    #consultation{margin: 90px 0;}
+    .consultation-btn{font-size: 16px;line-height: 35px;min-width: 210px;}
+
+    .meet-team-text{font-size: 18px;}
+    .meet-team-text h3{font-size: 33px;line-height: 30px;}
+    .meet-team-text h5{font-size: 18px;}
+
+    #weekly-article{padding: 60px 0;margin: 90px 0 80px 0;}
+    .article-text h4{font-size: 28px;line-height: 35px;}
+    .article-text p{line-height: 22px;}
+
+    #footer{padding: 65px 0;}
+    .f-header{font-size: 19px;}
+    .lcl-col{gap: 15px;padding-top: 20px;}
+    .footer-icon li a i{font-size: 24px;}
+    .footer-icon li{width: 45px;height: 47px;}
+    .footer-text p{padding: 20px 0 30px 0;}
+}
+@media screen and (max-width: 767px) {
+    .navigation{top: 82px;height: calc(70vh - 82px);padding: 15px 0 0 25px;}
+
+    .banner-text{max-width: none;}
+    .banner-text h1{font-size: 37px;}
+    
+    #features{padding: 60px 0;}
+    .care-text h3{font-size: 30px;}
+    .care-text h5{font-size: 17px;}
+    .tool-text h4{font-size: 24px;}
+    .features-card-block{padding: 20px;}
+    .main-banner-block{justify-content: center;text-align: center;}
+
+    #marketing{padding: 70px 0;}
+    .market-text h5{font-size: 17px;}
+    .market-text h2{font-size: 37px;line-height: 48px;}
+    .market-text p{padding: 18px 0 16px 0;}
+    .get-text h2{font-size: 37px;}
+
+    #business-services{padding: 70px 0;}
+    .amazing-text h5{font-size: 17px;}
+    .amazing-text h2{font-size: 37px;line-height: 48px;}
+    .technical-text p{line-height: 25px;}
+    .technical-text{left: 37px;bottom: 60px;}
+    .tech-analysis h4{font-size: 22px;}
+    .tech-analysis p{font-size: 15px;}
+    .tech-analysis{left: 15px;bottom: 30px;}
+
+    #get-to-work{padding: 80px 0;}
+    .finance-manger img{width: 80%;}
+    .get-ready-text h4{text-align: center;font-size: 26px;line-height: 36px;}
+    .project-analysis{right: 0;bottom: -23px;}
+    .consultation-btn{min-width: 200px;line-height: 30px;font-size: 15px;margin-top: 5px;}
+
+    .meet-team-text h5{font-size: 17px;}
+    .meet-team-text h3{font-size: 34px;}
+    .meet-team-text h3{font-size: 30px;}
+
+    .article-text h4{font-size: 25px;line-height: 30px;}
+    .article-text h4{font-size: 23px;}
+    .member-name h5{font-size: 18px;}
+    .member-name span{font-size: 16px;}
+    .article-btn{font-size: 18px;min-width: 160px;line-height: 35px;}
+
+    .footer-icon{gap: 20px;}
+    .footer-icon li{width: 42px;height: 42px;}
+    .footer-icon li a i{font-size: 20px;}
+    .footer-text p{font-size: 16px;}
+}
+@media screen and (max-width: 575px) {
+    .header-btn {padding: 10px 9px;font-size: 10px;}
+    .header-btn{display: none;}
+    .header-main{order: 3;}
+    .header-main-block{order: 2;}
+    .navigation{padding: 10px 0 0 0;top: 73px;height: calc(60vh - 73px);padding: 10px 0 0 15px;}
+    #header{padding: 10px 0;}
+    body{padding-top: 73px;}
+
+    .banner-text h1{font-size: 30px;line-height: 40px;}
+    .banner-btn{min-width: 120px;line-height: 20px;font-size: 15px;}
+    .banner-img-block img{width: 100%;}
+
+    #features{padding: 40px 0;}
+    .care-text h5{font-size: 15px;line-height: 20px;}
+    .care-text h3{font-size: 24px;line-height: 30px;padding-top: 10px !important;}
+    .feat-box{padding-top: 24px !important;}
+    .tool-text h4{font-size: 20px;line-height: 50px;}
+    .tool-text p{font-size: 15px;line-height: normal;}
+
+    #marketing{padding: 40px 0;}
+    .market-text h5{font-size: 15px;line-height: 25px;}
+    .market-text h2{font-size: 27px;line-height: 33px;margin-top: 10px !important;}
+    .market-text p{padding: 10px 0 14px 0;font-size: 15px;line-height: 22px;}
+    .market-btn{font-size: 14px;min-width: 230px;line-height: 40px;}
+    .market-face-mian-block{gap: 5px;height: 100%;object-fit: cover;}
+
+    #business-services{padding: 40px 0;}
+    .amazing-text h5{font-size: 15px;}
+    .amazing-text h2{font-size: 27px;line-height: 33px;}
+    .technical-text h4{font-size: 22px;}
+    .services-text{padding-top: 20px !important;}
+    .technical-text{left: 20px;bottom: 30px;}
+    .technical-text p{line-height: 20px;padding-right: 5px !important;}
+
+    #get-to-work{padding: 40px 0;}
+    .finance-manger img{width: 100%;}
+    .get-text h5{font-size: 16px;}
+    .get-text h2{font-size: 31px;line-height: 35px;padding-top: 10px !important;}
+    .analysis-text h4{font-size: 12px;}
+    .markting-text-block h5{font-size: 12px;font-weight: 500;line-height: 30px;}
+    .markting-text-block{min-width: 90px;}
+    .business-text-block h5{font-size: 12px;font-weight: 500;line-height: 30px;}
+    .business-text-block{min-width: 90px;}
+    .tab-block{margin: 10px 0;}
+    .visitors-main-block h5{font-size: 12px;}
+    .visitors-main-block::after{top: 24px;height: 5px;}
+    .visitors-main-block::before{top: 24px;height: 5px;}
+    .project-team-member{margin: 20px 0;}
+    .team-member-work span{font-size: 13px;line-height: normal;}
+    .team-member-col-bg{width: 35px;height: 35px;font-size: 12px;}
+    .team-member-col-img{width: 35px;height: 35px;}
+    .get-text h5{font-size: 15px;}
+    .get-text h2{font-size: 27px;}
+    .get-text p{line-height: normal;padding: 15px 0 12px 0;}
+    .finance-menu li{font-size: 15px;}
+    .project-analysis{position: inherit;left: 0;bottom: 0;width: auto;height: 100%;right: 0;}
+    .finance-menu{gap: 10px;}
+
+    .latest-text h5{font-size: 15px;}
+    .latest-text h3{font-size: 25px;}
+    .project-block{padding-top: 24px !important;}
+    .tech-analysis h4{font-size: 23px;}
+    .tech-analysis{left: 20px;bottom: 25px;}
+
+    #consultation{margin: 40px 0;}
+    .get-ready-text h4{font-size: 19px;line-height: 25px;}
+    .consultation-btn{padding: 3px 0 6px 0;font-size: 15px;font-weight: 400;min-width: 170px;line-height: 25px;margin-top: 10px;}
+    #consultation{padding: 40px 0;}
+
+    .meet-team-text h5{font-size: 15px;}
+    .meet-team-text h3{font-size: 24px;}
+    .team-block{padding-top: 24px !important;}
+    .member-name h5{font-size: 16px;}
+    .member-name span{font-size: 15px;}
+    .team-card-box{background-color: #F5F5F5;border-radius: 6px;}
+    .member-img img{border-radius: 6px 6px 0 0;}
+    .member-name{padding-left: 15px;}
+
+    #weekly-article{margin: 50px 0;padding: 40px 0;}
+    .article-text{text-align: center;}
+    .article-text h4{font-size: 20px;}
+    .article-text p{padding-top: 10px !important;}
+    .article-btn{font-size: 15px;margin-top: 5px !important;min-width: 120px;line-height: 20px;}
+
+    #footer{padding: 40px 0;}
+    .lcl-col{gap: 10px;}
+    .footer-text p{font-size: 16px;line-height: normal;}
+    .footer-text p{padding: 15px 0 20px 0;}
+    .footer-icon li a{width: 40px;height: 40px;}
+    .f-header{font-size: 17px;}
+    .lcl-col li a{font-size: 16px;}
+}
+@media screen and (max-width: 319px) {
+    
+}
